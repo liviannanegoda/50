@@ -1,4 +1,4 @@
-package com.example.Spring_HW12.models;
+package com.example.W50.models;
 
 import jakarta.persistence.*;
 import lombok.Data;
