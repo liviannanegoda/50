@@ -1,4 +1,4 @@
-package com.example.50.configuration;
+package com.example.W50.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -31,7 +31,7 @@ public class IntegrationConfig {
     @Transformer(inputChannel = "textInputChanel", outputChannel = "fileWriterChanel")
     public GenericTransformer<String, String> mainTransformer() {
         return text -> {
-            //какая-то логика
+
             return text;
         };
     }
